@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    top: 74px;
+    width: 100%;
+    min-width: 940px;
+    text-align: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+video {
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+}
+
+header {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    list-style: none;
+    text-align: center;
+    background: grey;
+    border: 5px groove darkgrey;
+}
+
+.nav_buttons {
+    vertical-align: top;
+    display: inline-block;
+    vertical-align: center;
+    padding: 10px;
+}
+
+.nav_buttons a {
+    display: block;
+    text-decoration: none;
+    border: 5px groove darkgrey;
+    background: white;
+    padding: 8px;
+    color: rgb(98, 27, 27);
+    font-weight: 700;
+    text-shadow: darkred 1px 1px 1px;
+    box-shadow: rgb(127, 62, 62) 2px 2px 3px;
+    border-radius: 50%;
+}
+
+#faqs {
+    margin: 10px 100px;
+    border: 5px groove darkgrey;
+    padding: 20px;
+    background: darkgrey;
+    border-radius: 15%;
+}
+
+.when, .previous, .start, .how, .next {
+    border: 5px groove darkgrey;
+    margin: 8px;
+    padding: 60px;
+    background: white;
+    border-radius: 35%;
+    line-height: 1.5rem;
+}
+
+#faqs h2 {
+    padding-bottom: 30px;
+}
+
+.intro_title {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#contact {
+    border: 5px groove darkgrey;
+    width: 100%;
+    background: grey;
+}
+
+.contact_title {
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+  
+#contact li {
+    display: inline-block;
+    width: auto;
+    padding: 0 10px 10px 10px;
+}
+  
+#contact a {
+    display: block;
+    text-decoration: none;
+    border: 5px groove darkgrey;
+    margin: 5px;
+    padding: 8px;
+    width:fit-content;
+    color: rgb(98, 27, 27);
+    background: white;
+    font-weight: 700;
+    text-shadow: darkred 1px 1px 1px;
+    box-shadow: rgb(127, 62, 62) 2px 2px 3px;
+    border-radius: 50%;
+  }
+
+  a:hover {
+    color: red;
+    border: 1px solid gold;
+}
